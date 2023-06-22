@@ -1,0 +1,6 @@
+.Navlogo__image--container{
+    background-image: url(../Pages/Images/NavLogo.png);
+    height: 350vh;
+        width: 350vh;
+        background-size: cover;
+}

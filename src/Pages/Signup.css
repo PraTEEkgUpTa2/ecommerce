@@ -1,0 +1,42 @@
+.signup__image--container {
+    background-image: url(./Images/Signup.jpg);
+    height: 90vh;
+    margin-top: 25px;
+    background-size: cover;
+}
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: center;
+}
+
+.login__image--container {
+    background-image: url(./Images/login.svg);
+    height: 90vh;
+    background-size: cover;
+}
+button{
+    width: 20rem;
+}
+
+.logo__image--container {
+    background-image: url(./Images/Logo.png);
+    height: 30vh;
+    width: 30vh;
+    margin: 30px 0 0 150px;
+    background-size: cover;
+}
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+    .logo__image--container{
+        margin:30px 0 0 150px;
+        height: 15vh;
+        width: 15vh;
+    }
+}
